@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Scoreboard</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            
+            <h1>Scoreboard</h1>
+
+            <table id="">
+                <thead>
+                    <tr>
+                        <td colspan="4" class="header-cell-actions">
+                            <b>Add participant:</b>
+                            <input type="text" id="js-participant-name" placeholder="Enter name" />
+                            <button id="js-add-participant" title="Add">+</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Participant Name</th>
+                        <th>Points</th>
+                        <th>Beers</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="js-participants-list">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td id="" colspan="4"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <script type="text/javascript" src="js/model.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        
+    </body>
+</html>
